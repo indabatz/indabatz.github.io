@@ -1,0 +1,216 @@
+-
+  id: 307
+  title: "Coffee Break"
+  place: "Hall"
+  service: true
+  description: "The best time to talk with speakers and attendees"
+-
+  id: 310
+  title: "Group Work"
+  place: "Hall"
+  service: true
+  description: ""  
+-
+  id: 308
+  title: "Morning Break"
+  place: "Hall"
+  service: true
+  description: "The best time to talk with speakers and attendees"
+-
+  id: 309
+  title: "Lunch Break"
+  place: "Dining room"
+  service: true
+-
+  id: 001
+  title: "Introduction to Machine Learning: Tutorial"
+  description: ""
+  subtype: Tutorial
+  speakers: []
+  language: en
+  complexity: "Intermediate"
+  video: ""
+-
+  id: 002
+  title: "Machine Learning Lab -1"
+  description: ""
+  subtype: Lab
+  speakers: []
+  language: en
+  complexity: "Intermediate" 
+  presentation: ""
+  video: ""
+-
+  id: 003
+  title: "Foundations of Deep Learning"
+  description: ""
+  subtype: Tutorial
+  speakers: []
+  language: en
+  complexity: "Intermediate" 
+  presentation: ""
+-
+  id: 004
+  title: "Deep Learning Lab-1"
+  description: ""
+  subtype: Lab
+  speakers: []
+  language: en
+  complexity: "Intermediate"
+  presentation: ""
+  video: ""
+-
+  id: 005
+  title: "Convolutional (CNN) and Recurrent Neural Network (RNN)"
+  description: ""
+  subtype: Tutorial
+  speakers: []
+  language: en
+  complexity: "Intermediate"
+  presentation: ""
+  video: ""
+-  
+  id: 006
+  title: "Deep Learning Lab-2"
+  description: ""
+  subtype: Lab
+  speakers: []
+  language: en
+  complexity: "Intermediate"
+  presentation: ""
+  video: ""
+-  
+  id: 007
+  title: "Unsupervised Machine Learning"
+  description: ""
+  subtype: Lab
+  speakers: []
+  language: en
+  complexity: "Intermediate"
+  presentation: ""
+  video: ""
+-
+  id: 010
+  title: "Machine Learning Lab -2"
+  description: ""
+  subtype: Lab
+  speakers: []
+  language: en
+  complexity: "Intermediate" 
+  presentation: ""
+  video: ""
+-
+  id: 011
+  title: "Machine Learning for Health"
+  description: ""
+  subtype: Tutorial
+  speakers: []
+  language: en
+  complexity: "Intermediate" 
+  presentation: ""
+  video: ""
+-
+  id: 012
+  title: "ML4Health: Lab"
+  description: ""
+  subtype: Lab
+  speakers: []
+  language: en
+  complexity: "Intermediate" 
+  presentation: ""
+  video: ""
+-
+  id: 013
+  title: "Introduction to Natural Language Processing"
+  description: ""
+  subtype: Lab
+  speakers: []
+  language: en
+  complexity: "Intermediate" 
+  presentation: ""
+  video: ""
+-
+  id: 014
+  title: "Natural Language Processing Lab"
+  description: ""
+  subtype: Lab
+  speakers: []
+  language: en
+  complexity: "Intermediate" 
+  presentation: ""
+  video: ""
+-
+  id: 015
+  title: "ML for Time Series Analysis"
+  description: ""
+  subtype: Tutorial
+  speakers: []
+  language: en
+  complexity: "Intermediate" 
+  presentation: ""
+  video: ""
+-
+  id: 016
+  title: "ML for Time Series Analysis: Lab"
+  description: ""
+  subtype: Tutorial
+  speakers: []
+  language: en
+  complexity: "Intermediate" 
+  presentation: ""
+  video: ""
+
+-
+  id: 017
+  title: "Non-Intrusive Load Monitoring"
+  description: ""
+  subtype: Tutorial
+  speakers: []
+  language: en
+  complexity: "Intermediate" 
+  presentation: ""
+  video: ""
+-
+  id: 020
+  title: "Machine Learning Research in Developing Countries"
+  description: ""
+  subtype: Presentation
+  speakers: []
+  language: en
+  complexity: "" 
+  presentation: ""
+  video: ""
+-
+  id: 021
+  title: "Closing Remarks"
+  description: ""
+  subtype: Presentation
+  speakers: []
+  language: en
+  complexity: "" 
+  presentation: ""
+  video: ""
+
+-
+  id: 022
+  title: "Machine Learning for Computer Vision"
+  description: ""
+  subtype: Tutorial
+  speakers: []
+  language: en
+  complexity: "Intermediate" 
+  presentation: ""
+  video: ""
+
+-
+  id: 023
+  title: "Machine Learning for Computer Vision: Lab"
+  description: ""
+  subtype: Lab
+  speakers: []
+  language: en
+  complexity: "Intermediate" 
+  presentation: ""
+  video: ""
+
+

@@ -1,0 +1,300 @@
+# Plugins
+gems:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+theme: minima
+remote_theme: benbalter/retlab
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+
+
+# Site Settings
+title: "Indabatz"
+email: "indabatanzania@gmail.com"
+description: "The first Deep Learning Summer School in Tanzania"
+baseurl: "/indabatz"
+url: "https://indabatz.github.io"
+permalink: "/blog/:title"
+googleAnalyticsTrackingId: ""
+googleAnalyticsSiteUrl: ""
+siteVerification: ""
+
+# Organizer Info
+organizerName: "Indabatz"
+organizerAlternateName: "parrotai"
+organizerDescription: "Open and volunteer python users communities who  share experience about python and its application in machine learning and artificial intelligence."
+organizerEmail: "info@parrotai.co.tz"
+organizerLogo: "/indabatz/img/organizers/logos.png"
+organizerLink: "https://indabatz.github.io/"
+
+# Head
+metaKeywords: "event, parrotai, ML, AI, Deep Learning Indaba 2019"
+twitterAccount: "@parrotai"
+#socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+# Documents
+c4pUrl: "https://bit.ly/dfua-c4p"
+c4sponsorsUrl: "https://docs.google.com/forms/d/e/1FAIpQLSeuLx_i7EoNBzqe46hfqllVxge54ln5U12_LT86O7iPqnvKQQ/viewform?usp=sf_link#start=openform"
+
+
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+ - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/team/", text: "Team"}
+ - {permalink: "/logistics/", text: "Logistics"}
+# - {permalink: "/hackathon/", text: "Hackathon"}
+bottomNavigationLinks:
+ - {link: "https://docs.google.com/forms/d/e/1FAIpQLSeHbM0u9uXBTrK9Vfp0SmMXFa1E_OguWV_tBUgw7fkV_rRHTA/viewform?usp=sf_link", text: "Become a speaker"}
+rightNavigationButtons:
+ - {link: "https://docs.google.com/forms/d/e/1FAIpQLSeHbM0u9uXBTrK9Vfp0SmMXFa1E_OguWV_tBUgw7fkV_rRHTA/viewform?usp=sf_link", text: "Become a speaker"}
+
+# Hero Block
+heroImage: "hero.jpg"
+heroTitle: "Deep Learning Summer School <typeout> (DLIndabatz-19)"
+eventDate: "2019"
+typeoutTextValues: '"CIVE", "04-06th April", "Dodoma, Tanzania"'
+typeoutFallback: ""
+heroButtons:
+ - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdNZA2TdRDYTDaqCaaSvpf8c2vzaQ3YfdzU56mFx3sJaQZuUQ/viewform?usp=sf_link", text: "Registration"}
+ - {permalink: "/#tickets", text: "Schedule"}
+
+# About Block
+aboutTitle: "About Deep Learning Indabatz Events"
+aboutBlock:
+ - {title: "DLindabatz-19", image: "conference.jpg", text: "
+ "}
+ - {title: "Our target audience", image: "workshop.jpg", text: " is: In principle, graduate students, doctoral students and researchers in the fields of machine learning and related fields  will be typical profiles of participants. However, there are no formal pre-requisites for attendance in terms of academic degrees. Computer scientists who have interests in  machine learning and AI and Industry practitioners who desire a more in depth understanding of these subjects are also encouraged to participate. No deep previous knowledge of ML is required, but the attendants are assumed to have at least some basic background on basics of linear algebra, probabilities and programming in python. A review on basic concepts and an introduction to the necessary tools for implementation exercises will be given in day zero."}
+
+
+ 
+# Statistic Block
+statisticBlockImage: "statistic.jpg"
+statisticBlock:
+ - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
+ - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
+ - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
+ - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+
+# Latest News Block
+latestNewsTitle: "Latest news"
+
+# Rockstar Speakers Block
+rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersCount: 4
+rockstarSpeakersTitle: "Rockstar speakers"
+rockstarSpeakersButtonText: "See all speakers"
+
+# Location Block
+locationBlockTitle: "Location"
+eventLocationName: "Conference Hall"
+eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
+eventStreetAddress: "22 Teatral'na St"
+eventAddressLocality: "Cive"
+eventAddressLocalityRegion: "Dodoma"
+eventPostalCode: "79000"
+eventAddressCountry: "Tanzania"
+eventStartTime: "2014-10-25T10:00"
+eventDoorTime: "09:00"
+eventEndTime: "2014-10-25T20:00"
+eventPlaceCoordinates: "49.843237, 24.028751"
+mapCenterCoordinates: "49.842537, 24.025701"
+mapMobileCenterCoordinates: "49.841620, 24.029411"
+
+# Venue Block
+venueBlockTitle: "Venue"
+venueBigImage: "venue_0.jpg"
+venueSmallImage1: "venue_1.jpg"
+venueSmallImage2: "venue_2.jpg"
+venueSmallImage3: "venue_3.jpg"
+venueTitle: "Kinopalace Cinema"
+venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+
+# Tweets Feed Block
+tweetsFeedImage: "twitter-feed.jpg"
+tweetsFeedTitle: "Whats up?"
+twitterHashTag: "parrotai"
+twitterFeed: "http://https://twitter.com/parrotai/favoritesjson.php?c=10&cache_interval=8000"
+
+
+# Partners Block
+organizersTitle: "Organizers"
+partnersTitle: "Partners"
+partnersC4sponsorsButton: "Become a sponsor"
+
+# Subscribe Block
+subscribeImage: "subscribe.jpg"
+subscribeTitle: "Subscribe for updates"
+subscribeAction: ""
+subscribeInfo: "Registration will be open around end of February. Stay tuned!"
+
+# Tickets Block
+ticketsTitle: "Pricetable"
+ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsOffers:
+ -
+  name: "Early Bird"
+  price: "350"
+  priceCurrency: "UAH"
+  ticketsNumber: "150"
+  ribbon: "-5%"
+  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonText: "Buy Now"
+  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  validFrom: "2014-08-25T10:00"
+  validThrough: "2014-09-30T23:59"
+ -
+  name: "Last Chance"
+  price: "450"
+  priceCurrency: "UAH"
+  ticketsNumber: "100"
+  ribbon: "-20%"
+  featured: true
+  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonText: "Buy Now"
+  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  validFrom: "2014-10-01T00:00"
+  validThrough: "2014-10-23T23:59"
+  disabled: true
+ -
+  name: "Student"
+  price: "200"
+  priceCurrency: "UAH"
+  ticketsNumber: "50"
+  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonText: "Buy Now"
+  additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
+  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  validFrom: "2014-08-20T10:00"
+  validThrough: "2014-10-23T23:59"
+  soldOut: true
+  soldOutText: "Sold Out"
+
+# Footer
+socialLinks:
+ #- {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
+ - {link: "https://twitter.com/intent/user?screen_name=pythontz", icon: "twitter"}
+ - {link: "https://www.facebook.com/PythonTz", icon: "facebook"}
+ 
+footerBlocks:
+ -
+  title: "Links"
+  links:
+   - {link: "http://pythontz.github.io/", text: "pythontz.github.io/"}
+   
+ -
+  title: "Contacts"
+  links:
+   - {link: "mailto:info@parrotai.co.tz", text: "info@parrotai.co.tz"}
+ -
+  title: "FAQ"
+  links:
+   - {permalink: "/cod/", text: "Code of Conduct"}
+
+
+# Blog
+blogTitle: "Latest news"
+blogCommentsEnabled: true
+discusShortName: "Deep Learning "
+
+# Speakers List Block
+showSessions: false
+
+# Team Block
+teamBlockTitle: "About Deep Learning Indaba 2019"
+aboutUs: " The five days Deep Learning Indaba 2019 summer school will bring together masters, PhD students, researchers and industry practitioners who have interests in  machine learning and AI with aim to equip them with necessary cutting-edge  and hands-on machine learning and AI skills. The school will provide an introduction to the themes and methods of the field through tutorial and hands-on labs activities. The tutorial will cover the foundations of machine learning and deep learning, unsupervised machine learning, and the application of these techniques in health, natural language processing, computer vision, and time-series analysis. The emphasis of the tutorial will be on helping participants to understand the underlying motivation of the state of the arts machine learning and AI techniques and how and why they work. The lab activities  will equip participants on how to apply these techniques to a real world problems in their research and/or in the business career. Lab activities will be based on hands-on training in code development and testing, with application to real data-sets."
+teamsub_1BlockTitle: "Target Audience"
+targetAudience: "In principle, graduate students, doctoral students and researchers in the fields of machine learning and related fields  will be typical profiles of participants. However, there are no formal pre-requisites for attendance in terms of academic degrees. Computer scientists who have interests in  machine learning and AI and Industry practitioners who desire a more in depth understanding of these subjects are also encouraged to participate."
+teamsub_2BlockTitle: "Requirements and Prerequisites"
+confRequirement: "No deep previous knowledge of ML is required, but the attendants are assumed to have at least some basic background on linear algebra, probabilities and programming in python. A review on basic concepts and an introduction to the necessary tools for implementation exercises will be given in day zero. There is no registration fee for students, non-students participants will pay a registration fees of Tsh 200,000."
+# Logistics Find Way Block
+findWayTitle: "Find your way here"
+findWayDistance: "Distance"
+findWayDriving: "DRIVING"
+findWayWalking: "WALKING"
+findWayBicycling: "BICYCLING"
+findWayTransit: "TRANSIT"
+findWayFindFlight: "Find Flight"
+logisticsMapCenterCoordinates: "49.056728, 3.117289"
+logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
+logisticsMapAutoDirections: false
+
+# Logistics Direction Details Block
+directionDetailsImage: "direction-details.jpg"
+directionDetailsTitle: "Get around Cive"
+directionDetailsCards:
+ - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
+ - {title: "Public Transit", information: 'Google Transit is available in Dodoma. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
+ - {title: "Hotels", information: 'University of Dodoma has lots of great hotels and hostels. More information will be available later.'}
+directionDetailsWideCards:
+ -
+  title: "Questions?"
+  subCards:
+   -
+    title: "Hotels"
+    links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+   -
+    title: "Registration"
+    links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+   -
+    title: "Attendance Details"
+    links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+
+# Hackathon
+hackathonTitle: "Hackathon"
+enableHackathon: true
+
+# Hackathon About Block
+aboutHackathonTitle: "Meet our themes"
+hackathonRows:
+ - {title: "Android Wear", image: "hackathon-0.png", details: "The front doors will be locked because this is after hours, please park behind the building and come to the door nearest the parking lot.<br><br>Our last meeting showed that there was a lot of interest in Android Wear so we decided to put on an Android Wear Hackathon to see what you could come up with! We realize that this is pretty short notice so we hope you can help us spread the word! There will be pizza, prizes and a great group of geeks to spend the evening coding with! Even if you don't have an app idea come on in and lend a hand to someone else or maybe find inspiration once you're here!"}
+ - {title: "Google Glass", image: "hackathon-1.png", details: "We love wearable computing especially Google Glass for which we want to gather the break up community in order to boost innovation.<br><br>Coding an app on Google Glass needs its Rockstar Dev : the team needs a fast learner with solid skills on Android. He knows his way around Android SDK, already checked the Glass Developement Kit (GDK) quick start guide allowing him to jump start developing an app for Glass.The Designer has the hard task to build the visual identity from the ground up, he has strong UX knowledge and a deep understanding of the new rules set by the Glass. His design skills give him the credibility to decide the most effective UI and the most compelling Glass experience."}
+ - {title: "Polymer", image: "hackathon-2.png", details: "Polymer is a library that introduces web components. Web components are small elements on a page that can be extended and incorporated in web applications. The result is an increase in productivity.<br><br>We used Polymer mainly to explore the concept of web components. The transition of Google to material design was also a factor.While the library was never touched by the team, it still was painless to wireframe the application. Later on we incorporated some Polymer components in the design. We didn’t use the full potential of Polymer because of the limited time."}
+
+# Hackathon Judges Block
+judgesImage: "judges.jpg"
+judgesTitle: "Judges"
+
+# Hackathon Prizes Block
+prizesTitle: "Prizes"
+prizes:
+ - {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
+ - {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
+ - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
+
+# Hackathon Location Block
+hackathonLocationBlockTitle: "Location"
+hackathonLocationName: "Communa"
+hackathonLocationLink: "http://communa.net.ua/"
+hackathonStreetAddress: "1 Halytska St"
+hackathonAddressLocality: "Lviv"
+hackathonAddressLocalityRegion: "Lvivska"
+hackathonPostalCode: "79000"
+hackathonAddressCountry: "Ukraine"
+hackathonTimeTitle: "Hack through"
+hackathonStartTime: "2014-10-24T10:00"
+hackathonDoorTime: "09:00"
+hackathonEndTime: "2014-10-25T00:00"
+viewOnMap: "View on Google Maps"
+hackathonPlaceCoordinates: "49.840999, 24.031144"
+hackathonMapCenterCoordinates: "49.840696, 24.028754"
+hackathonMapMobileCenterCoordinates: "49.841639, 24.031182"

@@ -1,0 +1,4 @@
+- 
+  group: "Main organizer"
+  elements: 
+    - {name: "PythonTZ", description: "Open and volunteer python community", link: "http://pythontz.github.io", imageUrl: "logos.svg"}
